@@ -1,10 +1,10 @@
 
 import './App.css';
-import LoginPage from '../components/login';
+import LoginPage from './components/login.jsx';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import ProductosList from '../components/productos.jsx';
-import SignUpForm from '../components/SingUp.jsx';
-import ProtectedRoute from '../components/ProtectedRoute.jsx';
+import ProductosList from './components/productos.jsx';
+import SignUpForm from './components/SingUp.jsx';
+import ProtectedRoute from './components/ProtectedRoute.jsx';
 import { useState } from 'react';
 
 function App() {

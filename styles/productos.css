@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+
+/* HeaderP.css */
+.headerP {
+  position: fixed;         /* Mantiene el encabezado en una posición fija */
+  top: 0;                  /* Fija el encabezado en la parte superior de la página */
+  left: 0;                 /* Fija el encabezado al borde izquierdo */
+  width: 100%;             /* Asegura que el encabezado ocupe todo el ancho de la página */
+  text-align: center;      /* Centra el texto dentro del encabezado */
+  font-size: 90px;
+  margin-top: 30px;
+  font-family: 'Love Ya Like A Sister';
+  z-index: 1000;           /* Coloca el encabezado por encima de otros elementos */
+  padding: 10px 0;         /* Agrega espacio interno (padding) al encabezado */
+ 
+}
+
+.headerP h1 {
+  color: #000000;
+  font-family: 'Love Ya Like A Sister';
+  margin: 0;
+}
+
+.headerP h1:first-child {
+  font-size: 120px;
+  margin-top: 0px;
+}
+
+.headerP h1:last-child {
+  font-size: 120px;
+  margin-top: 0px;
+}
+
+.productos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 80px;
+  justify-content: center;
+  margin-top: 400px;
+  max-height: 400px; /* Altura máxima para que quepan dos tarjetas completas */
+  overflow-y: auto; /* Habilita el scroll vertical */
+  padding-right: 10px;
+}
+.producto-cardAll {
+  background-color: #53daec;
+  border-radius: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #3eebeb;
+  padding: 30px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  min-width: 500px;
+  margin-bottom: 20px; /* Espacio entre tarjetas */
+  font-family: 'Love Ya Like A Sister';
+}
+
+.producto-card {
+  display: flex;
+  justify-content: space-between; /* Mantiene los elementos juntos */
+  align-items: center;
+  width: 100%;
+}
+
+.producto-nombre-descripcion {
+  flex-grow: 2; /* Toma la mayor parte del espacio disponible */
+}
+
+.producto-info {
+  flex-grow: 1; /* Toma el resto del espacio disponible */
+  text-align: right; /* Alinea el contenido a la derecha */
+}
+
+.producto-nombre-descripcion h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.producto-card p {
+  margin: 5px 0;
+  color: #000000;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+  align-self: flex-start; /* Alinea el botón con la parte superior */
+}
+.alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  z-index: 1000; /* Asegura que el mensaje de alerta esté por encima de otros elementos */
+  font-size: 16px;
+}

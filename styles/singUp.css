@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+/* Contenedor de la página de registro */
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Mantener la altura completa del viewport */
+    position: relative;
+    font-family: 'Love Ya Like A Sister';
+  }
+  
+  /* Estilo para el header con la fuente específica */
+  .headeSr {
+    text-align: center; /* Reducido el margen inferior */
+    font-size: 90px; /* Ajuste el tamaño de fuente para 1366x768 */
+    margin-top: -69px;
+    font-family: 'Love Ya Like A Sister';
+  }
+  
+  .headeSr h1 {
+    color: #000000; /* Color del texto */
+    font-family: 'Love Ya Like A Sister';
+    margin: 0;
+  }
+  
+  .headeSr h1:first-child {
+    font-size: 120px;
+    margin-top: 0px; /* Ajuste el margen superior */
+  }
+  
+  .headeSr h1:last-child {
+    font-size: 120px;
+    margin-top: 0px; /* Ajuste el margen superior */
+  }
+  
+  /* Formulario de registro */
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Ajuste del gap para el espacio entre elementos */
+    width: 90%; /* Ajustar la anchura al 90% para una mejor visualización en pantalla completa */
+    max-width: 400px;
+    margin-top: 0px; /* Ajuste para acercar el formulario al header */
+  right: 300px;
+}
+  
+  /* Campos de entrada de texto */
+  .sign-up-form input {
+    width: 100%; /* Ajuste de anchura al 100% para que ocupe el espacio disponible */
+    padding: 10px;
+    font-size: 18px; /* Tamaño de fuente ajustado */
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: bold;
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Contenedor de los botones */
+  .sign-up-form .buttonsUP {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px; /* Aumentado el espacio entre los botones */
+    padding-top: 20px; /* Ajuste del padding superior para un mejor alineamiento */
+  }
+  
+  /* Estilo para los botones */
+  .sign-up-form .buttonsUP button {
+    padding: 8px 50px; /* Reducido el padding vertical para hacer los botones más pequeños */
+    font-size: 20px; /* Tamaño de fuente ajustado */
+    color: #000000;
+    background-color: #555;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    transition: background-color 0.3s ease; /* Transición para el hover */
+    justify-content: center;
+}
+  
+  /* Efecto hover para los botones */
+  .sign-up-form .buttonsUP button:hover {
+    background-color: #ffffff;
+    color: #555; /* Color del texto en el hover */
+  }
+  
+  /* Estilo para los mensajes de error y éxito */
+  .sign-up-form p {
+    color: red;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mensaje de éxito o error */
+  .sign-up-form p:last-child {
+    color: green; /* Cambiar el color para los mensajes de éxito */
+    margin-top: 10px; /* Espacio superior para separar del contenido anterior */
+  }
+
+  #root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

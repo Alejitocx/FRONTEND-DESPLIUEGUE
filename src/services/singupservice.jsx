@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const signUp = async (codeEmploye, email_user, password_user) => {
   try {
-    const response = await axios.post("https://glistening-miracle-production.up.railway.app/api/users/register", null, {
+    const response = await axios.post("https://striking-reprieve-production.up.railway.app/api/users/register", null, {
       params: {
         employe_code: codeEmploye,
         email_user: email_user,

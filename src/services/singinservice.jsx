@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const findUserByEmailAndPassword = async (email, password) => {
     try {
-        const response = await axios.get('http://localhost:8090/api/users/findUser', {
+        const response = await axios.get('http://glistening-miracle-production.up.railway.app/api/users/findUser', {
             params: {
                 email_user: email,
                 password_user: password

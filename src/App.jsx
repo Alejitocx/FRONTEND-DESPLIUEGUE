@@ -24,14 +24,15 @@ function App() {
         />
         <Route path="/SignUpForm" element={<SignUpForm />} />
         <Route
-          path="/ProductosList"
-          element={
-            <ProtectedRoute
-              isAuthenticated={isAuthenticated}
-              element={ProductosList}
-            />
-          }
-        />
+  path="/ProductosList"
+  element={
+    <ProtectedRoute
+      isAuthenticated={isAuthenticated}
+      element={<ProductosList />}
+    />
+  }
+/>
+
       </Routes>
     </Router>
   );

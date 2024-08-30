@@ -1,3 +1,4 @@
+
 import './App.css';
 import LoginPage from './components/login.jsx';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -8,9 +9,11 @@ import { useState } from 'react';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
   const handleLogin = () => {
     setIsAuthenticated(true);
   };
+
   return (
     <Router>
       <Routes>
@@ -29,16 +32,9 @@ function App() {
             />
           }
         />
-           element={
-    <ProtectedRoute
-      isAuthenticated={isAuthenticated}
-      element={<ProductosList />}
-    />
-     }
-  
-
       </Routes>
     </Router>
   );
 }
+
 export default App;

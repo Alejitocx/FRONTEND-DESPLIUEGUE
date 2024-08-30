@@ -1,5 +1,5 @@
 import './App.css';
-import LoginPage from './components/login.jsx';
+import LoginPage from './components/login';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import ProductosList from './components/productos.jsx';
 import SignUpForm from './components/SingUp.jsx';
@@ -25,9 +25,10 @@ function App() {
         <Route
           path="/ProductosList"
           element={
-            <ProtectedRoute isAuthenticated={isAuthenticated}>
-              <ProductosList />
-            </ProtectedRoute>
+            <ProtectedRoute
+              isAuthenticated={isAuthenticated}
+              element={ProductosList}
+            />
           }
         />
       </Routes>

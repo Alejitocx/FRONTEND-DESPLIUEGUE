@@ -2,7 +2,7 @@ import './App.css';
 import LoginPage from './components/login.jsx';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import ProductosList from './components/productos.jsx';
-import SignUpForm from './components/SignUp.jsx'; // Asegúrate de que este es el nombre correcto
+import SignUpForm from './components/SingUp.jsx'; // Asegúrate de que este es el nombre correcto
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx'; // Componente 404
 import { useState } from 'react';

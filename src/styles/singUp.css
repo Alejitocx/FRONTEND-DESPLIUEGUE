@@ -87,7 +87,7 @@
   
   /* Estilo para los mensajes de error y éxito */
   .sign-up-form p {
-    color: red;
+    color: rgb(0, 0, 0);
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -95,7 +95,7 @@
   
   /* Mensaje de éxito o error */
   .sign-up-form p:last-child {
-    color: green; /* Cambiar el color para los mensajes de éxito */
+    color: rgb(0, 0, 0); /* Cambiar el color para los mensajes de éxito */
     margin-top: 10px; /* Espacio superior para separar del contenido anterior */
   }
 

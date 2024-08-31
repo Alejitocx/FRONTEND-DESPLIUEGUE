@@ -10,7 +10,7 @@
   width: 100%;             /* Asegura que el encabezado ocupe todo el ancho de la página */
   text-align: center;      /* Centra el texto dentro del encabezado */
   font-size: 90px;
-  margin-top: 30px;
+  margin-top: 50px;
   font-family: 'Love Ya Like A Sister';
   z-index: 1000;           /* Coloca el encabezado por encima de otros elementos */
   padding: 10px 0;         /* Agrega espacio interno (padding) al encabezado */
@@ -39,7 +39,7 @@
   gap: 20px;
   padding: 80px;
   justify-content: center;
-  margin-top: 400px;
+  margin-top: 450px;
   max-height: 400px; /* Altura máxima para que quepan dos tarjetas completas */
   overflow-y: auto; /* Habilita el scroll vertical */
   padding-right: 10px;
@@ -48,7 +48,7 @@
   background-color: #53daec;
   border-radius: 80px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #3eebeb;
+  background-color: #82e6f3;
   padding: 30px;
   margin-bottom: 20px;
   max-width: 600px;

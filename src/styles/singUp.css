@@ -62,9 +62,6 @@
   .sign-up-form .buttonsUP {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    gap: 30px; /* Aumentado el espacio entre los botones */
-    padding-top: 20px; /* Ajuste del padding superior para un mejor alineamiento */
   }
   
   /* Estilo para los botones */

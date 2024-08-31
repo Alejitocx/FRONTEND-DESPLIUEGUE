@@ -13,7 +13,7 @@
 .header {
   text-align: center; /* Reducido el margen inferior */
   font-size: 90px; /* Ajuste el tamaño de fuente para 1366x768 */
-  margin-top: -69px;
+  margin-top: -110px;
   font-family: 'Love Ya Like A Sister';
 }
 
@@ -101,7 +101,7 @@
 }
 
 .buttonst button {
-  margin-right: 30px; /* Espacio a la derecha de cada botón */
+  margin-right: 90px; /* Espacio a la derecha de cada botón */
 }
 
 /* Elimina el margen derecho del último botón */

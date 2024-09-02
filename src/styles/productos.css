@@ -47,14 +47,13 @@
 .producto-cardAll {
   background-color: #53daec;
   border-radius: 80px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #0000001a;
   background-color: #82e6f3;
-  padding: 30px;
+  padding: 22px;
+  min-width: 450px;
+  height: 90px;
   margin-bottom: 20px;
-  max-width: 600px;
-  min-width: 500px;
-  margin-bottom: 20px; /* Espacio entre tarjetas */
-  font-family: 'Love Ya Like A Sister';
+  font-family: Love Ya Like A Sister;
 }
 
 .producto-card {
